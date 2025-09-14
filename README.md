@@ -27,10 +27,6 @@ $$ LANGUAGE plpgsql;
 SELECT * FROM get_employee_by_email('shan@gmail.com');
 
 
-
-
-
-
 POST:
 http://localhost:8080/api/employees
 {
